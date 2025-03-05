@@ -27,3 +27,28 @@ natural(1).
 
 % Second
 natural(N):- N > 1, N2 is N - 1, natural(N2).  
+
+
+/*
+
+
+Induction
+
+1) P(n0) is true.
+2) For all n > n0, P(n-1) is true then P(n) is true.
+   
+   P(n-1) -> P(n)
+   
+
+         5 is natural if 4 is natural, 5 is natural !!!
+		 
+		 4 is natural if 3 is natural, 4 is natural !!!
+		 
+		 3 is natural if 2 is natural, 3 is natural !!!
+		 
+		 2 is natural if 1 is natural, 2 is natural !!!
+		 
+		 1 is true, 1 is natural!!
+		 
+		 
+*/
