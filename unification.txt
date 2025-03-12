@@ -1,0 +1,22 @@
+Two terms unify if
+
+1) If there are no free variables
+   two terms unify is there are identical.
+ 
+2) If there are variable, Two terms unify if
+   is posible to find a varible substitution that
+   will made terms identical.
+
+
+
+
+   
+
+
+
+ 
+   
+pre-order -> +(1,1)
+in-order  -> 1 + 1
+post-order-> (1,1)+   
+  
