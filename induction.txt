@@ -1,0 +1,45 @@
+
+Induction
+
+n0 is the smaller element is a set S and we want to 
+demonstrate if the program P is true for all elements
+in S. Elements in S have the concept of order. For all
+elements is S, n1 =< n2
+
+1) P(n0) is true
+2) for all n > n0, P(n-1) -> P(n)
+
+
+natural(1).
+natural(N):- N > 1, N2 is N-1, natural(N2).
+
+
+    5? -> 4? -> 3? -> 2? -> 1?
+	Yes!  Yes! Yes! Yes! Yes!!! 
+	
+	
+Lists  n0=[]  [_] < [_,_]	
+
+
+Trees  n0=nil  1  <   1   <   1
+                     /       / \
+					2       2   3 
+
+Graphs n0=Empty   a < a---b < a---b---c		
+
+
+
+Clause Horn
+
+a /\ b -> c
+
+a /\ b /\ c -> d
+
+d:- a, b, c.
+
+
+
+
+
+			
+                    
